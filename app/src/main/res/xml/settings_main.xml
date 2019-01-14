@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/settings_title">
+
+    <ListPreference
+        android:defaultValue="@string/settings_journalist_default"
+        android:entries="@array/settings_journalists_labels"
+        android:entryValues="@array/settings_journalists_values"
+        android:key="@string/settings_journalist_key"
+        android:title="@string/settings_journalist_label" />
+
+    <ListPreference
+        android:defaultValue="@string/settings_number_of_articles_default"
+        android:entries="@array/settings_num_articles_labels"
+        android:entryValues="@array/settings_num_articles_values"
+        android:key="@string/settings_number_of_articles_key"
+        android:title="@string/settings_number_of_articles_label" />
+
+
+
+</PreferenceScreen>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Layout for a list of articles -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/background"
+        android:orientation="vertical"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingTop="8dp">
+
+        <TextView
+            android:id="@+id/author_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:paddingBottom="8dp"
+            android:paddingTop="8dp"
+            android:paddingLeft="8dp"
+            android:textColor="@color/textColorArticleTitle"
+            android:textSize="20sp"
+            android:background="@color/authorNameBackground"
+            tools:text="George Monbiot" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/base_bar" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignTop="@+id/bioLayout"
+        android:background="@color/background"
+        android:divider="@null"
+        android:dividerHeight="0dp"
+        android:orientation="vertical" />
+
+    <!-- Empty view is only visible when the list has no items. -->
+    <TextView
+        android:id="@+id/empty_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textAppearance="?android:textAppearanceMedium" />
+
+    <!-- Loading indicator is only shown before the first load -->
+    <ProgressBar
+        android:id="@+id/loading_indicator"
+        style="@style/Widget.AppCompat.ProgressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" />
+
+</LinearLayout>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary color of the app (shown in the app bar) -->
+    <color name="colorPrimary">#2B3D4D</color>
+
+    <!-- Primary dark color of the app (shown in the status bar) -->
+    <color name="colorPrimaryDark">#23303D</color>
+
+    <!-- Accent color of the app -->
+    <color name="colorAccent">#10CAC9</color>
+
+    <!-- Text color for the details of the article in the list item -->
+    <color name="textColorArticleDetails">#B4BAC0</color>
+
+    <!-- Text color for the author of the article in the list item -->
+    <color name="textColorAuthorDetails">#f5f5f5</color>
+
+    <!-- Text color for the title of the article in the list item -->
+    <color name="textColorArticleTitle">#2B3D4D</color>
+
+    <!-- Light grey background color for the list items and author textview -->
+    <color name="background">#e0e0e0</color>
+
+    <!-- Light grey background color for the author name tile -->
+    <color name="authorNameBackground">#bdbdbd</color>
+
+    <!-- Light grey color for the horizontal bar at the bottom of each list item -->
+    <color name="base_bar">#bdbdbd</color>
+
+    <!-- Color for an article with keyword Business -->
+    <color name="business">#afb42b</color>
+
+    <!-- Color for an article with keyword Opinion -->
+    <color name="opinion">#f57c00</color>
+
+    <!-- Color for an article with keyword Culture -->
+    <color name="culture">#880e4f</color>
+
+    <!-- Color for an article with keyword Education -->
+    <color name="education">#7b1fa2</color>
+
+    <!-- Color for an article with keyword Environment -->
+    <color name="environment">#689f38</color>
+
+    <!-- Color for an article with keyword Media -->
+    <color name="media">#512da8</color>
+
+    <!-- Color for an article with keyword Money -->
+    <color name="money">#00796b</color>
+
+    <!-- Color for an article with keyword News -->
+    <color name="news">#1976d2</color>
+
+    <!-- Color for an article with keyword Politics -->
+    <color name="politics">#e64a19</color>
+
+    <!-- Color for an article with keyword Science -->
+    <color name="science">#0097a7</color>
+
+    <!-- Color for an article with keyword Society -->
+    <color name="society">#fbc02d</color>
+
+    <!-- Color for an article with keyword Sport -->
+    <color name="sport">#455a64</color>
+
+    <!-- Color for an article with keyword Technology -->
+    <color name="technology">#616161</color>
+
+    <!-- Color for an article with keyword Travel -->
+    <color name="travel">#0288d1</color>
+
+    <!-- Color for an article with keyword TV & radio -->
+    <color name="televisionRadio">#303f9f</color>
+
+    <!-- Color for an article with keyword UK News -->
+    <color name="ukNews">#5d4037</color>
+
+    <!-- Color for an article with keyword US News -->
+    <color name="usNews">#388e3c</color>
+
+    <!-- Color for an article with keyword World News -->
+    <color name="worldNews">#ffa000</color>
+
+    <!-- Color for an article with any other keyword -->
+    <color name="defaultCategory">#000000</color>
+
+</resources>

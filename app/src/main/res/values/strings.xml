@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">Opinio</string>
+
+    <!-- Error message when there is no internet connectivity [CHAR LIMIT=NONE] -->
+    <string name="no_internet_connection">No internet connection.</string>
+
+    <!-- Text to display in the list when there are no articles [CHAR LIMIT=NONE] -->
+    <string name="no_earthquakes">No articles found.</string>
+
+    <!-- Settings Menu Item [CHAR LIMIT=NONE] -->
+    <string name="settings_menu_item">Settings</string>
+
+    <!-- Settings Activity Title [CHAR LIMIT=NONE] -->
+    <string name="settings_title">Settings</string>
+
+    <!-- Strings For Journalist Preference [CHAR LIMIT=30] -->
+    <string name="settings_journalist_label">Contributor</string>
+    <string name="settings_journalist_key" translatable="false">contributor</string>
+    <string name="settings_journalist_default" translatable="false">George Monbiot</string>
+
+    <!-- Label for jounalist George Monbiot -->
+    <string name="settings_GMonbiot_label">George Monbiot</string>
+    <string name="settings_GMonbiot_value" translatable="false">George Monbiot</string>
+
+    <!-- Label for jounalist Aditya Chakrabortty -->
+    <string name="settings_AChakrabortty_label">Aditya Chakrabortty</string>
+    <string name="settings_AChakrabortty_value" translatable="false">Aditya Chakrabortty</string>
+
+    <!-- Label for jounalist Hugh Muir -->
+    <string name="settings_HMuir_label">Hugh Muir</string>
+    <string name="settings_HMuir_value" translatable="false">Hugh Muir</string>
+
+    <!-- Label for jounalist Marina Hyde -->
+    <string name="settings_MHyde_label">Marina Hyde</string>
+    <string name="settings_MHyde_value" translatable="false">Marina Hyde</string>
+
+    <!-- Label for jounalist Gaby Hinsliff -->
+    <string name="settings_GHinsliff_label">Gaby Hinsliff</string>
+    <string name="settings_GHinsliff_value" translatable="false">Gaby Hinsliff</string>
+
+    <!-- Label for jounalist Simon Jenkins -->
+    <string name="settings_SJenkins_label">Simon Jenkins</string>
+    <string name="settings_SJenkins_value" translatable="false">Simon Jenkins</string>
+
+    <!-- Label for jounalist Martin Kettle -->
+    <string name="settings_MKettle_label">Martin Kettle</string>
+    <string name="settings_MKettle_value" translatable="false">Martin Kettle</string>
+
+    <!-- Label for jounalist Hadley Freeman -->
+    <string name="settings_HFreeman_label">Hadley Freeman</string>
+    <string name="settings_HFreeman_value" translatable="false">Hadley Freeman</string>
+
+    <!-- Label for jounalist Jonathan Freedland -->
+    <string name="settings_JFreedland_label">Jonathan Freedland</string>
+    <string name="settings_JFreedland_value" translatable="false">Jonathan Freedland</string>
+
+    <!-- Label for jounalist David Mitchell -->
+    <string name="settings_DMitchell_label">David Mitchell</string>
+    <string name="settings_DMitchell_value" translatable="false">David Mitchell</string>
+
+    <!-- Strings For Number of Articles Preference [CHAR LIMIT=30] -->
+    <string name="settings_number_of_articles_label">Number of articles to display</string>
+    <string name="settings_number_of_articles_key" translatable="false">number_of_articles</string>
+    <string name="settings_number_of_articles_default" translatable="false">@string/settings_20_articles_label</string>
+
+    <!-- Label for number-of-articles = 10 option [CHAR LIMIT=20] -->
+    <string name="settings_10_articles_label">10</string>
+    <string name="settings_10_articles_value" translatable="false">10</string>
+
+    <!-- Label for number-of-articles = 20 option [CHAR LIMIT=20] -->
+    <string name="settings_20_articles_label">20</string>
+    <string name="settings_20_articles_value" translatable="false">20</string>
+
+    <!-- Label for number-of-articles = 50 option [CHAR LIMIT=20] -->
+    <string name="settings_50_articles_label">50</string>
+    <string name="settings_50_articles_value" translatable="false">50</string>
+
+
+
+
+
+</resources>

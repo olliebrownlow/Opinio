@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="settings_num_articles_labels">
+        <item>@string/settings_10_articles_label</item>
+        <item>@string/settings_20_articles_label</item>
+        <item>@string/settings_50_articles_label</item>
+    </string-array>
+
+    <string-array name="settings_num_articles_values">
+        <item>@string/settings_10_articles_value</item>
+        <item>@string/settings_20_articles_value</item>
+        <item>@string/settings_50_articles_value</item>
+    </string-array>
+
+    <string-array name="settings_journalists_labels">
+        <item>@string/settings_GMonbiot_label</item>
+        <item>@string/settings_AChakrabortty_label</item>
+        <item>@string/settings_HMuir_label</item>
+        <item>@string/settings_MHyde_label</item>
+        <item>@string/settings_GHinsliff_label</item>
+        <item>@string/settings_SJenkins_label</item>
+        <item>@string/settings_MKettle_label</item>
+        <item>@string/settings_HFreeman_label</item>
+        <item>@string/settings_JFreedland_label</item>
+        <item>@string/settings_DMitchell_label</item>
+    </string-array>
+
+    <string-array name="settings_journalists_values">
+        <item>@string/settings_GMonbiot_value</item>
+        <item>@string/settings_AChakrabortty_value</item>
+        <item>@string/settings_HMuir_value</item>
+        <item>@string/settings_MHyde_value</item>
+        <item>@string/settings_GHinsliff_value</item>
+        <item>@string/settings_SJenkins_value</item>
+        <item>@string/settings_MKettle_value</item>
+        <item>@string/settings_HFreeman_value</item>
+        <item>@string/settings_JFreedland_value</item>
+        <item>@string/settings_DMitchell_value</item>
+    </string-array>
+
+
+</resources>
+
